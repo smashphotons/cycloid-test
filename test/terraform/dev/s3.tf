@@ -13,7 +13,7 @@ module "s3" {
   source = "./module-s3"
 
   bucket_acl  = "private"
-  bucket_name = "tf"
+  bucket_name = "dev-cycloid-tf-1"
   customer    = var.customer
   env         = var.env
   extra_tags = {
